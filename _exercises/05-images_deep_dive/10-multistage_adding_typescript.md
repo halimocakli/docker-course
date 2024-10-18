@@ -72,8 +72,6 @@ Try to implement these steps before moving on to the detailed guide. Let's see w
 
    Check that your application responds with "hello from express" when accessed.
 
----
-
 ## Conclusion
 
 In this exercise, we learned how to integrate TypeScript into our Docker project with multi-stage builds. You successfully installed TypeScript, updated your project configuration, and ensured that your application runs as expected. Keep practicing and exploring TypeScript, as it adds a lot of value to your development process. Happy coding! 🌟

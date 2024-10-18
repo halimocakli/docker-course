@@ -41,7 +41,3 @@ Try to follow these steps on your own before checking out the detailed guide bel
 ## Conclusion
 
 In this lecture, we explored how to manage service dependencies in Docker Compose effectively. By using the `depends_on` configuration, we ensured that our backend service waits for the database service to be available before starting. This not only enhances the reliability of our application but also streamlines the development process. Keep experimenting with Docker Compose and integrate more features as you grow! Happy coding! 💻
-
-## Lecture Description
-
-In this lecture, we focus on managing service dependencies in Docker Compose to enhance the reliability of multi-service applications. Students learn to configure service dependencies, ensuring that necessary services are up and running before dependent services are launched.
