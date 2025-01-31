@@ -4,7 +4,10 @@ FROM node:22-alpine AS build
 WORKDIR /app
 
 COPY package*.json .
-RUN npm ci
+
+# Temporarily adding --force to avoid underlying dependency conflicts
+# due to latest versions of react-scripts.
+RUN npm ci --force
 
 COPY . .
 RUN npm run build
