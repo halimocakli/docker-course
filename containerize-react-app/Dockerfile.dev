@@ -8,5 +8,8 @@ COPY package*.json .
 # due to latest versions of react-scripts.
 RUN npm ci --force
 
+ENV CHOKIDAR_USEPOLLING=true
+ENV WATCHPACK_POLLING=true
+
 COPY . .
 CMD ["npm", "start"]
