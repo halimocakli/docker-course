@@ -1,4 +1,4 @@
-# Running Your First Docker Container - İlk Docker Konteynerini Koşturmak
+# Running Your First Docker Container
 
 ## Overview
 
